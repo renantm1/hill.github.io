@@ -20,7 +20,22 @@
             <li><a href="#">Contato</a></li>
             <li><a href="#">Sobre</a></li>
         </ul>
-        <button class="hire-btn">Contate-nos</button>
+    
+    <button class="hire-btn" onclick="togglePopup()">Contate-nos</button>
+
+    <!-- Sobreposição para o efeito de desfoque -->
+    <div class="overlay" id="overlay"></div>    
+    <!-- Pop-up -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <div class="icon">
+                <i class='bx bx-check'></i>
+                <span class="close" onclick="togglePopup()">&times;</span>
+                <h2>Aqui está o telefone para contato: 4002-8922</h2>
+                <p>Ligue ou mande uma mensagem para mais informações!</p>
+            </div>
+        </div>
+    </div>
     </div>
 
     <div class="main">
@@ -211,6 +226,6 @@
 
     </footer>
 
+<script src="index.js"></script>
 </body>
-
 </html>
