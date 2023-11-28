@@ -612,9 +612,10 @@ footer .cols .news-col form button i{
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
     z-index: 9999;
     transition: transform 0.3s ease; /* Transição de posição */
+    text-align: center;
 }
 
-.close {
+.bx-check{
     cursor: pointer;
     float: right;
     font-size: 20px;
@@ -623,4 +624,9 @@ footer .cols .news-col form button i{
 /* Exibição do pop-up */
 .show-popup {
     display: block;
+}
+
+.icon h2 span{
+    color: #ffb742;
+    text-decoration: underline;
 }
