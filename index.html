@@ -132,7 +132,6 @@
                     A Hill conta com um espaço grande para todo e qualquer tipo de evento, com assistência médica, estacionamento, equipamentos de som, entre outros benefícios!
                 </p>
             </div>
-            <button class="hire-btn">Veja mais</button>
         </div>
 
         <div class="right">
@@ -180,7 +179,17 @@
         <div class="start">
             <h3>Começar atendimento</h3>
             <p>Interessado em nosso trabalho? Contate-nos pelas redes sociais.</p>
-            <button>Let's do this</button>
+            <button class="hire-btn" onclick="togglePopup()">Let's do this</button>
+            <div class="overlay" id="overlay"></div>
+            <div class="popup" id="popup">
+                <div class="popup-content">
+                    <div class="icon">
+                        <i class='bx bx-check' onclick="togglePopup()"></i>
+                        <h2>Nossas Redes Sociais: <span>4002-8922</span></h2>
+                        <p>Ligue ou mande uma mensagem para mais informações!</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="cols">
