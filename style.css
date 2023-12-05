@@ -63,6 +63,15 @@ body {
     background: #fb8c00;
 }
 
+.navbar .toggler{
+    font-size: 2rem;
+    color: #ffb742;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    display: none;
+}
+
 .main{
     height: 640px;
     display: flex;
@@ -629,4 +638,22 @@ footer .cols .news-col form button i{
 .icon h2 span{
     color: #ffb742;
     text-decoration: underline;
+}
+
+@keyframes toRight{
+    from{
+        transform: translateX(-700px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes toLeft{
+    from{
+        transform: translateX(550px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }
