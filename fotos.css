@@ -11,29 +11,31 @@ body {
     height: 100vh;
     background: #ffffff; /* Fundo branco */
 }
-
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    padding: 0 50px;
+.imgalterada{
+    margin-top: 40px;
+    height: 100%;
+    width: 30%;
+    background-color: #fb8c00;
 }
 
-.navbar h2{
+.navbar1{
+   height: 20%;
+}
+
+.navbar1 h2{
     color: #000000;
     font-weight: 600;
 }
 
-.navbar ul{
+.navbar1 ul{
     display: flex;
 }
 
-.navbar ul li{
+.navbar1 ul li{
     list-style: none;
 }
 
-.navbar ul li a{
+.navbar1 ul li a{
     text-decoration: none;
     color: #000000;
     font-size: 16px;
@@ -41,12 +43,19 @@ body {
     transition: color 0.3s ease;
 }
 
-.navbar ul li:hover a{
+.navbar1 ul li:hover a{
     color: #ffb742;
 }
 
-.navbar ul li:last-child a{
+.navbar1 ul li:last-child a{
     margin: 0;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hire-btn{
@@ -64,11 +73,12 @@ body {
 }
 
 .main{
-    height: 640px;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    background-color: #fb8c00;
 }
 
 .main h4{
@@ -94,13 +104,6 @@ body {
     color: #000000;
     margin-top: 20px;
 }
-
-.main img{
-    width: 811px;
-    height: 456px;
-}
-
-
 
 @media screen and (max-width: 1100px) {
     .guarantee{
@@ -159,7 +162,7 @@ body {
 
 @media screen and (max-width: 780px) {
     
-    .navbar button{
+    .navbar1 button{
         display: none;
     }
 
@@ -188,15 +191,15 @@ body {
 
 @media screen and (max-width: 650px) {
     
-    .navbar{
+    .navbar1{
         justify-content: center;
     }
 
-    .navbar h2{
+    .navbar1 h2{
         display: none;
     }
 
-    .navbar ul li a{
+    .navbar1 ul li a{
         font-size: 14px;
         text-align: center;
     }
@@ -219,10 +222,11 @@ body {
         font-size: 12px;
     }
 
-    .main img{
+    .imgalterada{
         margin-top: 40px;
-        width: 150px;
-        height: 150px;
+        height: 40px;
+        width: 40px;
+        background-color: #fb8c00;
     }
 
     .skills{
