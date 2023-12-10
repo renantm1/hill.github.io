@@ -12,66 +12,6 @@ body {
     background: #ffffff; /* Fundo branco */
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    padding: 0 50px;
-}
-
-.navbar h2{
-    color: #000000;
-    font-weight: 600;
-}
-
-.navbar ul{
-    display: flex;
-}
-
-.navbar ul li{
-    list-style: none;
-}
-
-.navbar ul li a{
-    text-decoration: none;
-    color: #000000;
-    font-size: 16px;
-    margin-right: 25px;
-    transition: color 0.3s ease;
-}
-
-.navbar ul li:hover a{
-    color: #ffb742;
-}
-
-.navbar ul li:last-child a{
-    margin: 0;
-}
-
-.hire-btn{
-    background: #ffb742;
-    padding: 6px 30px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-}
-
-.hire-btn:hover{
-    background: #fb8c00;
-}
-
-.navbar .toggler{
-    font-size: 2rem;
-    color: #ffb742;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    display: none;
-}
-
 .main{
     height: 640px;
     display: flex;
